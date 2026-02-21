@@ -40,17 +40,36 @@ Interactive **Tableau dashboards** for analyzing year-over-year sales performanc
 ## 🛠️ Tech Stack
 
 - **Visualization:** Tableau Desktop – parameters, calculated fields, LOD expressions, dashboard actions
-- **Data Source:** EU sales data (included in packaged workbook)
+- **Data Source:** EU sales data (CSV files)
+
+---
+
+## 📁 Dataset
+
+The dataset consists of four CSV files in a star schema:
+
+- **Orders.csv** – fact table with sales, profit, quantity, order dates
+- **Customers.csv** – customer demographics
+- **Location.csv** – geographic data (region, state, city)
+- **Products.csv** – product categories and subcategories
+
+The `.twbx` file includes an extract of this data.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-├── Sales Dashboard.png                    # Sales dashboard preview
-├── Customer Dashboard.png                  # Customer dashboard preview
-├── Sales & Customer Dashboards.twbx        # Tableau packaged workbook (includes data)
-└── README.md                                # This file
+├── Datasets/
+│   ├── Customers.csv
+│   ├── Location.csv
+│   ├── Orders.csv
+│   └── Products.csv
+├── Sales Dashboard.png
+├── Customer Dashboard.png
+├── Sales & Customer Dashboards.twbx
+└── README.md
 ```
+
 
 **#Tableau #DataVisualization #SalesAnalytics #CustomerAnalytics #KPI #Dashboard**
